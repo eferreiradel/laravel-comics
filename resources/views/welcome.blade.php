@@ -8,8 +8,8 @@
 @endsection
 
 @section('main')
-    <div class="container-fluid">
-        <div class="jumbotron">
+    <div class="container-fluid px-0">
+        <div class="jumbotron px-0">
             <img src="{{ asset('images/jumbotron.jpg') }}" class="img-fluid jumbotron" alt="jumbotron">
         </div>
     </div>

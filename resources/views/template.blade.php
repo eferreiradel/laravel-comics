@@ -22,9 +22,27 @@
             </nav>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="container">
+    <div class="container-fluid px-0">
             @yield('main')
+    </div>
+    <div class="container-fluid px-0 bg-dark py-5">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-2 d-flex flex-column">
+                    <h3>Solution</h3>
+                    <a href="">Solutions</a>
+                    <a href="">Comics</a>
+                    <a href="">Ordina</a>
+                    <a href="">Support</a>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <h3>Solution</h3>
+                    <a href="">Solutions</a>
+                    <a href="">Comics</a>
+                    <a href="">Ordina</a>
+                    <a href="">Support</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>

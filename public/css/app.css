@@ -1,11 +1,19 @@
 a {
     color: white;
+    text-decoration: none;
 }
 
 .navbar--height {
     height: 3rem;
 }
 aside {
+}
+
+.footer a {
+    text-decoration: none;
+}
+.footer h3 {
+    color: lightblue;
 }
 
 .jumbotron {
